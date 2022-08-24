@@ -47,7 +47,7 @@ body {
 
 @font-face {
     font-family: "Pompadur";
-    src: url(/fonts/ChareInk-Regular.ttf);
+    src: url(fonts/ChareInk-Regular.ttf);
 
 }
 
@@ -110,7 +110,7 @@ body {
     color: #f2a278;
     font-family: Pompadur;
     font-size: 46px;
-    width: 40%;
+    width: 50%;
     margin-left: 100px;
     margin-top: 200px;
     text-shadow: 2px 0 0 black;
