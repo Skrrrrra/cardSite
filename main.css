@@ -110,7 +110,7 @@ body {
     color: #f2a278;
     font-family: Pompadur;
     font-size: 46px;
-    width: 35%;
+    width: 40%;
     margin-left: 100px;
     margin-top: 200px;
     text-shadow: 2px 0 0 black;
@@ -197,7 +197,7 @@ body {
 .product-item {
     position: static;
     width: 240px;
-    height: 510px;
+    height: 530px;
     text-align: center;
     margin: 0 auto;
     border: 6px solid #f2a278;
