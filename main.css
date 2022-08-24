@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    /* background-color: rgb(43, 56, 99); */
+    height: 3200px;
+    background: #153956;
+
+}
+
+.firstScroll {
+    font-family: Pompadur;
+    /* background-color: rgb(43, 56, 99); */
+    /* background: linear-gradient(rgb(43, 56, 99), rgb(99, 114, 163)); */
+    width: 1920px;
+    height: 860px;
+}
+
+.nav {
+    line-height: 80px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+.logo {
+    text-decoration: none;
+    color: #f2a278;
+    font-size: 30px;
+    margin-left: 60px;
+    list-style-type: none;
+}
+
+.centerNav {
+    margin-left: 180px;
+    color: rgb(147, 172, 255);
+    font-size: 25px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.centerNavObj:hover {
+    color: rgb(206, 217, 253);
+}
+
+@font-face {
+    font-family: "Pompadur";
+    src: url(/fonts/ChareInk-Regular.ttf);
+
+}
+
+.centerNavObj {
+    color: rgb(147, 172, 255);
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+.contactIcons {
+    width: 500px;
+    list-style-type: none;
+    line-height: 80px;
+    margin-left: 200px;
+}
+
+.imgContact {
+    width: 60px;
+}
+
+.fa {
+    line-height: 80px;
+    text-align: center;
+    font-size: 80px;
+    width: 50px;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-vk {
+    background: none;
+    color: #f2a278;
+}
+
+/* Twitter */
+.fa-telegram {
+    background: none;
+    color: #f2a278;
+}
+
+.fa-github {
+    color: #f2a278;
+}
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: red;
+    width: 1920px;
+}
+
+.info {
+    color: #f2a278;
+    font-family: Pompadur;
+    font-size: 46px;
+    width: 35%;
+    margin-left: 100px;
+    margin-top: 200px;
+    text-shadow: 2px 0 0 black;
+}
+
+.secondInfo {
+    font-family: Pompadur;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 0 0 black;
+}
+
+.mainpagePhoto {
+    width: 400px;
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 100px;
+    border-radius: 130px;
+    border: 10px solid #f2a278;
+}
+
+.inline1 {
+    display: inline-flex;
+}
+
+.getintouch {
+    margin-left: 50px;
+    margin-top: -50px;
+    text-decoration: none;
+    background-color: #f2a278;
+    padding: 10px;
+    color: rgb(75, 88, 131);
+    border-color: 1px solid black;
+    box-shadow: -12px 12px 1px 8px rgba(3, 3, 26, 0.2);
+    text-shadow: none;
+}
+.getintouch2{
+    margin-left: 50px;
+    margin-top: -50px;
+    text-decoration: none;
+    background-color: rgb(240 123 97);
+    padding: 10px;
+    color: rgb(75, 88, 131);
+    border-color: 1px solid black;
+    box-shadow: -12px 12px 1px 8px rgba(3, 3, 26, 0.2);
+    text-shadow: none;
+}
+.getintouch2:hover{
+    opacity: 0.7;
+    margin-left: 40px;
+    margin-top: -60px;
+    box-shadow: -8px 8px 1px 0px rgba(3, 3, 26, 0.2);
+}
+
+.getintouch:hover {
+    opacity: 0.7;
+    margin-left: 40px;
+    margin-top: -60px;
+    box-shadow: -8px 8px 1px 0px rgba(3, 3, 26, 0.2);
+
+}
+
+.otstup {
+    margin-top: 400px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: Pompadur;
+    color: #f2a278;
+    margin-left: 100px;
+
+}
+
+.secondRoll {
+    margin-top: 100px;
+}
+
+.allSuggestions {
+    margin-top: 100px;
+    margin-left: -800px;
+}
+
+.product-item {
+    position: static;
+    width: 240px;
+    height: 510px;
+    text-align: center;
+    margin: 0 auto;
+    border: 6px solid #f2a278;
+    background: #f2a278;
+    font-family: Pompadur;
+}
+
+.product-item img {
+    display: block;
+    width: 100%;
+}
+
+.product-list h3 {
+    font-size: 18px;
+
+    color: rgb(43, 56, 99);
+    margin: 0 0 10px 0;
+    text-shadow: 2px 0 0 white;
+
+}
+
+.image {
+    background-color: #f2a278;
+}
+
+.allSuggestions {
+    display: inline-flex;
+    margin-left: 18px;
+
+}
+
+.item {
+    margin-left: 43px;
+    box-shadow: -12px 12px 2px 5px rgba(3, 3, 26, 0.2);
+}
+
+.orange {
+    width: 500px;
+    height: 400px;
+    background-color: #f2a278;
+}
+
+.textt {
+    font-size: 50px;
+    font-family: Pompadur;
+    margin: 150px;
+    line-height: 400px;
+    color: rgb(0, 0, 0);
+}
+
+.itemInfo {
+    width: 60%;
+    margin-left: 20%;
+    font-family: Pompadur;
+    font-size: 20px;
+    color: rgb(43, 56, 99);
+    text-shadow: 2px 0 0 white;
+}
+
+.aboutMe {
+    display: inline-flex;
+}
+
+.object1 {
+    border: 15px solid rgb(27, 35, 59);
+    background-color: none;
+    width: 700px;
+    height: 400px;
+    margin-right: 20px;
+    word-wrap: break-word;
+}
+
+.object2 {
+    border: 15px solid rgb(27, 35, 59);
+    background-color: none;
+    width: 450px;
+    height: 200px;
+}
+
+.object3 {
+    border: 15px solid rgb(27, 35, 59);
+    background-color: none;
+    width: 700px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.object4 {
+    margin-top: 20px;
+    border: 15px solid rgb(27, 35, 59);
+    background-color: none;
+    width: 450px;
+    height: 350px;
+}
+
+.thirdRoll {
+    margin-top: 200px;
+    margin-left: 3%;
+}
+
+.infoTitle {
+    font-family: Pompadur;
+    font-size: 20px;
+    color: #f2a278;
+    margin-left: 20px;
+    line-height: 70px;
+}
+
+.infoText {
+    margin-top: -40px;
+    color: white;
+    font-family: Pompadur;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.infoText2 {
+    width: 80%;
+    margin-top: 0px;
+    color: white;
+    font-family: Pompadur;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.infoText3 {    
+    width: 80%;
+    margin-top: 0px;
+    color: white;
+    font-family: Pompadur;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.infoText4 {
+    width: 80%;
+    margin-top: 0px;
+    color: white;
+    font-family: Pompadur;
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.fourthRoll{
+    margin-top: 200px;
+    display: inline-flex;
+}
+.mailSendTitle{
+    position: absolute;
+    font-family: Pompadur;
+    color: rgb(240 123 97);
+    margin-left: 80px;
+    font-size: 40px;
+    
+}
+.mailSendText{
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-family: Pompadur;
+    font-size: 25px;
+    margin-left: 80px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+.input{
+    margin-left: 400px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(27, 35, 59);
+    border-width: 0px 0px 3px;
+    border-color:1px solid #cccccc;
+    
+}
+.inputLabel{
+    color: rgb(240 123 97);
+    font-family: Pompadur;
+    font-size: 20px;
+    margin-left:400px;
+}
+.RollText4{
+    width: 400px;
+    height: 400px;
+
+}
+
+
